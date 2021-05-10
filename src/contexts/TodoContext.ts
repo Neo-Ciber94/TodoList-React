@@ -1,5 +1,5 @@
 import React from "react";
-import { TodoAction } from "../redux/todoActions";
+import { TodoAction } from "../redux/TodoAction";
 import { TodoData } from "../models/TodoData";
 
 export interface TodoContextProps {

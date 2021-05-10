@@ -1,5 +1,4 @@
-import { NewTodo } from "../models/NewTodo";
-import { Todo } from "../models/Todo";
+import { NewTodo, Todo } from "../models";
 
 export interface AddTodo {
   type: "add";
