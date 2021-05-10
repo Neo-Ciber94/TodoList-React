@@ -55,11 +55,19 @@ export async function openEditor(state: EditorState) {
       return;
     }
 
-    if (title) {
+    if (title && !isBlank(title)) {
       state.onConfirm({ title, description });
     }
 
     title = undefined;
     description = undefined;
   }
+}
+
+function isBlank(s: string | undefined): boolean {
+  if (s) {
+    return s.trim().length === 0;
+  }
+
+  return false;
 }
