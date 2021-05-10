@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --main-color: rgb(128, 126, 255);
+  --accent-color: rgb(255, 195, 85);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2", cursive;
+  font-size: 1.05rem;
+}
+
+body {
+  background: rgb(214, 195, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(214, 195, 255, 1) 0%,
+    rgba(177, 234, 255, 1) 100%
+  );
+}

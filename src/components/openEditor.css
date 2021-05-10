@@ -1,0 +1,25 @@
+.form-group {
+  text-align: left !important;
+}
+
+.title-todo {
+  color: var(--main-color);
+}
+
+button.swal2-confirm.confirm-button {
+  background-color: var(--accent-color);
+}
+
+button.swal2-confirm.confirm-button:focus {
+  border-color: rgb(255, 115, 0);
+  box-shadow: 0 0 0 0.2rem rgb(255, 227, 175);
+}
+
+button.swal2-cancel.cancel-button {
+  background-color: var(--main-color);
+}
+
+button.swal2-cancel.cancel-button:focus {
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 0.2rem rgb(241, 225, 255);
+}
