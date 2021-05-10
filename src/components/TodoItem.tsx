@@ -26,7 +26,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
     openEditor({
       initialValue: selectedTodo,
       onConfirm: (newTodo) => {
-        const todo: Todo = { ...newTodo, ...selectedTodo };
+        const todo: Todo = { ...selectedTodo, ...newTodo };
         context.dispatch({ type: "update", todo });
       },
     });
